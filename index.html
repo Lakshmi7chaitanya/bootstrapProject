@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+        <div class="container-fluid">
+          <img class="logo" src="assets/logo (1).png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+           
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#services">Our Services</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li class="nav-item mx-3">
+              <div class="dropdown">
+                <a class="btn btn-light dropdown-toggle" href="#dropdown" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                  </ul>
+                  </div>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--hero section-->
+    <section class="container-fluid bg-light" id="hero">
+      <div id="carouselExampleDark" class="carousel slide carousel-dark" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10">
+            <img src="assets/hero_1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="class h1 text-white">Farming is the best solution of worlds starvation</h5>
+              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10">
+            <img src="assets/hero_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="class h1 text-white">Organic vegetables is good for health</h5>
+              <p class="text-white">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime <br> placeat facere possimus.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10">
+            <img src="assets/hero_3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="class h1 text-white">Providing Fresh Produce Every Single<br>Day</h5>
+              <p class="text-white">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10">
+            <img src="assets/hero_4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="class h1 text-white">Providing Fresh Produce Every Single<br>Day</h5>
+              <p class="text-white">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="10">
+            <img src="assets/hero_5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="class h1 text-white">Providing Fresh Produce Every Single<br>Day</h5>
+              <p class="text-white">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--services section-->
+    <section class="container py-5" id="services">
+    <h2 class="text-center display-6">SERVICES</h2>
+    <h1 class="text-center h2-5">Providing Fresh Produce Every Single Day</h1>
+    <div class="d-md-flex justify-content-center align-items-center">
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Planting</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mulching</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Plowing</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mowing</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-flex justify-content-center align-items-center">
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Planting</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mulching</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Plowing</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      <div class="card text-center mx-auto mx-md-0" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mowing</h5>
+          <p class="card-text">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie</p>
+        </div>
+      </div>
+      
+    </div>
+    </section>
+    <!--About1 section-->
+    <section id="about" class="container-fluid bg-success pb-5 d-md-flex align-items-center justify-content-space-around gap-5 ">
+    <img src="assets/about.jpg" class="w-30 img-center"alt="about">
+    <div>
+    <h1 class="text-light display-6">Why Choose Us</h1>
+    <h2 class="text-white">More than 50 year experience in agriculture industry</h2>
+    <p class="text-light">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima nostrum perspiciatis error consequatur sit nulla.</p>
+    </div>
+    </section>
+    <!--testimonials section-->
+    <section class="container-fluid bg-white py-5" id="testimonials">
+     <div class="container d-md-flex align-items-center justify-content-center gap-5">
+      <div>
+      <h1 class="text-success">Plants Make Life Better</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+         Enim necessitatibus placeat, atque qui voluptatem velit<br>
+          explicabo vitae repellendus architecto provident nisi ullam<br>
+           minus asperiores commodi! Tenetur, repellat aliquam nihil illo.</p>
+      <ul>
+        <li><p>Lorem ipsum dolor sit amet</p></li>
+        <li><p>Velit explicabo vitae repellendu</p></li>
+        <li><p>Repellat aliquam nihil illo</p></li>
+      </ul>
+      <button class="bg-success text-white btn-lg btn-outline-none">GET IN TOUCH</button>
+      </div>
+      <img src="assets/about1.jpg" class="img-fluid">
+     </div>
+    </section>
+    <!--contact-->
+    <section class="container-fluid bg-light py-5" id="contact">
+      <div class="container d-md-flex align-items-center justify-content-center gap-5">
+      <div>
+        <h1>Subscribe To Our Newsletter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, reprehenderit!</p>
+      </div>
+      <div class="d-md-flex">
+        <input class="px-5 py-3 border-success">
+        <button class="btn-success btn-outline-none btn-lg text-white">Subscribe</button>
+      </div>
+    </div>
+    </section>
+    <!--footer-->
+    <footer class="bg-dark text-white py-3 text-center">
+     <p>© Copyright MyWebsite. All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
